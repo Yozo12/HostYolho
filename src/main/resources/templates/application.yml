@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: local
+---
+
+spring:
+  profiles: local
+server:
+  contextPath: 141.94.78.13
+  port: 8080
+
+---
+spring:
+  profiles: development
+server:
+  contextPath: 141.94.78.13
+  port: 8080
